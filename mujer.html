@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda Marlin</title>
+</head>
+
+<body>
+
+<!--Navegacion en la pag-->
+<header>
+    <div class="container-fluid">
+        <div>
+            <a href="index.html"><img src="imagenes/Encabezado/logo2.png" alt="logo"></a>
+        </div>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="mujer.html">MUJER</a></li>
+                <li><a href="hombre.html">HOMBRE</a></li>
+                <li><a href="ninos.html">NIÑOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul> 
+        </nav>
+    </div>
+</header>
+
+
+    <div class="peliculas-recomendadas contenedor">
+        <!--Esto contiene el titulo y los controles para navegar en el carrusel-->
+        <div class="contenedor-titulo-controles">
+            <h1>Ofertas mujer</h1>
+            <div class="indicadores"></div>
+        </div>
+    
+        <!--Aqui estan los botones para navegar en el carrusel y las imagenes-->
+        <div class="contenedor-principal">
+            <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+    
+            <div class="contenedor-carrusel">
+                <div class="carrusel">
+                    <div class="pelicula">
+                      <a href="#"><img src="imagenes/carrusel/ch1.jpg" alt="1"></a>
+                      <h2 class="producto-descripcion">Vestido negro con tirantes</h2>
+                      <p class="producto-precio">$ 270.00</p>
+                    </div>
+                    <div class="pelicula">
+                      <a href="#"><img src="imagenes/carrusel/ch2.jpg" alt="2"></a>
+                      <h2 class="producto-descripcion">Vestido blanco corto</h2>
+                      <p class="producto-precio">$ 170.00</p>
+                    </div>
+                    <div class="pelicula">
+                      <a href="#"><img src="imagenes/carrusel/ch3.jpg" alt="3"></a>
+                      <h2 class="producto-descripcion">Vestido crema</h2>
+                      <p class="producto-precio">$ 370.00</p>
+                    </div>
+                    <div class="pelicula">
+                      <a href="#"><img src="imagenes/carrusel/ch4.jpg" alt="4"></a>
+                      <h2 class="producto-descripcion">Vestido blanco mediano</h2>
+                      <p class="producto-precio">$ 300.00</p>
+                    </div>
+                    <div class="pelicula">
+                      <a href="#"><img src="imagenes/carrusel/ch13.jpg" alt="5"></a>
+                      <h2 class="producto-descripcion">bikynny negro</h2>
+                      <p class="producto-precio">$ 170.00</p>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="imagenes/carrusel/ch17.jpg" alt="6"></a>
+                        <h2 class="producto-descripcion">Traje de bano azul</h2>
+                        <p class="producto-precio">$ 170.00</p>
+                      </div>
+                </div>
+            </div>
+    
+            <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+        </div>
+    </div>
+
+    <div>
+        <ul class="productos">
+            <li class="producto">
+                <img src="imagenes/mujer/m1.jpg" alt="1">
+                <h2 class="producto-descripcion">Vestido azul</h2>
+                <p class="producto-precio">$ 270.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m2.jpg" alt="2">
+                <h2 class="producto-descripcion">Vestido blanco con azul</h2>
+                <p class="producto-precio">$ 370.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m3.jpg" alt="3">
+                <h2 class="producto-descripcion">Vestido blanco</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m4.jpg" alt="4">
+                <h2 class="producto-descripcion">Vestido Azul</h2>
+                <p class="producto-precio">$ 270.00</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="productos">
+            <li class="producto">
+                <img src="imagenes/mujer/m5.jpg" alt="5">
+                <h2 class="producto-descripcion">Vestido azul rey</h2>
+                <p class="producto-precio">$ 270.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m6.jpg" alt="6">
+                <h2 class="producto-descripcion">Vestido blanco largo</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m7.jpg" alt="7">
+                <h2 class="producto-descripcion">Vestido Azul cielo</h2>
+                <p class="producto-precio">$ 270.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m8.jpg" alt="8">
+                <h2 class="producto-descripcion">Vestido crema con flores</h2>
+                <p class="producto-precio">$ 370.00</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="productos">
+            <li class="producto">
+                <img src="imagenes/mujer/m9.jpg" alt="9">
+                <h2 class="producto-descripcion">Vestido blanco</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m10.jpg" alt="10">
+                <h2 class="producto-descripcion">Conjunto negro</h2>
+                <p class="producto-precio">$ 177.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m11.jpg" alt="11">
+                <h2 class="producto-descripcion">Conjunto blanco con azul</h2>
+                <p class="producto-precio">$ 270.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m12.jpg" alt="12">
+                <h2 class="producto-descripcion">Conjunto blanco</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="productos">
+            <li class="producto">
+                <img src="imagenes/mujer/m13.jpg" alt="13">
+                <h2 class="producto-descripcion">Conjunto negro con blanco</h2>
+                <p class="producto-precio">$ 107.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m14.jpg" alt="14">
+                <h2 class="producto-descripcion">Vestido blanco con azul</h2>
+                <p class="producto-precio">$ 270.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m15.jpg" alt="15">
+                <h2 class="producto-descripcion">Bikynny negro</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m16.jpg" alt="16">
+                <h2 class="producto-descripcion">Bikynny blanco</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="productos">
+            <li class="producto">
+                <img src="imagenes/mujer/m00.jpg" alt="17">
+                <h2 class="producto-descripcion">Bikynny negro con tirantes</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m18.jpg" alt="18">
+                <h2 class="producto-descripcion">Bikynny azul</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m19.jpg" alt="19">
+                <h2 class="producto-descripcion">Bikynny cafe</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+            <li class="producto">
+                <img src="imagenes/mujer/m20.jpg" alt="20">
+                <h2 class="producto-descripcion">Bikynny blanco</h2>
+                <p class="producto-precio">$ 170.00</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script> 
+</body>
+<footer>
+    Conocé nuestra Política de privacidad | ©2024 Boutique MarLin . Todos los derechos reservados.
+</footer>
+</html>
